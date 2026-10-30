@@ -1,0 +1,27 @@
+# Java / Spring Boot
+**/target/
+*.class
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Node.js
+**/node_modules/
+**/dist/
+**/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# macOS
+.DS_Store
